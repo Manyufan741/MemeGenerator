@@ -1,0 +1,64 @@
+h1 {
+    color:red;
+    font-size: 3em;
+    text-align: center;
+    background-image: linear-gradient(to right, blue, indigo);
+}
+
+h2 {
+    text-align: center;
+    margin-top: -30px;
+    background-image: linear-gradient(to right,green, cyan);
+}
+
+form {        
+    padding-bottom: 5px;
+    background-color: rgb(247, 72, 130);
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+label {  
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.Memes {
+    position: relative;
+    text-align: center; 
+}
+
+.Memes .top {   
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    top: 10px;
+    right: 0%;
+    /* bottom: 20px; */
+    left: 0%;
+}
+
+.Memes .bot {   
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* top: 300px; */
+    right: 0%;
+    bottom: 10px;
+    left: 0%;
+}
+
+img {
+    /* width: 480px; */
+    /* height: 270px; */
+}
